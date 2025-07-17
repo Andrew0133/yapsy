@@ -15,7 +15,7 @@ from yapsy.compat import ConfigParser
 try:
 	from distutils.version import StrictVersion
 except ImportError:
-	from packaging.version import parse as StrictVersion
+	from packaging.version import Version as StrictVersion
 
 
 class PluginInfo(object):
